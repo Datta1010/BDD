@@ -1,0 +1,40 @@
+
+Scenario: Test login functionlity             [90m# Com.AllFeatureFile/login.feature:8[0m
+  [32mGiven [0m[32muser is on login page[0m                 [90m# Com.StepDefination.loginpageTest.user_is_on_login_page()[0m
+  [32mWhen [0m[32muser enter valid username and password[0m [90m# Com.StepDefination.loginpageTest.user_enter_valid_username_and_password()[0m
+  [32mThen [0m[32muser is on homepage[0m                    [90m# Com.StepDefination.loginpageTest.user_is_on_homepage()[0m
+  [32mThen [0m[32muser is on homepage[0m                    [90m# Com.StepDefination.loginpageTest.user_is_on_homepage()[0m
+
+Scenario: Test Home Page Fuctionlit           [90m# Com.AllFeatureFile/login.feature:12[0m
+  [31mGiven [0m[31muser is on login page[0m                 [90m# Com.StepDefination.loginpageTest.user_is_on_login_page()[0m
+      [31morg.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-CNN42RC', ip: '192.168.127.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bededa161a5f870a655b130add4f0805, get {url=https://opensource-demo.orangehrmlive.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Datta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57448}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57448/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bededa161a5f870a655b130add4f0805
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at Com.BaseLayer.Baseclass11.inc(Baseclass11.java:23)
+	at Com.StepDefination.loginpageTest.user_is_on_login_page(loginpageTest.java:22)
+	at ✽.user is on login page(file:///C:/FrameWork/Cucumber/Com.AllFeatureFile/login.feature:4)
+[0m
+  [36mWhen [0m[36muser enter valid username and password[0m [90m# Com.StepDefination.loginpageTest.user_enter_valid_username_and_password()[0m
+  [36mThen [0m[36muser is on homepage[0m                    [90m# Com.StepDefination.loginpageTest.user_is_on_homepage()[0m
+  [36mGiven [0m[36muser click on Admin page[0m              [90m# Com.StepDefination.homepageTest.user_click_on_admin_page()[0m
+  [36mWhen [0m[36muser click leave page[0m                  [90m# Com.StepDefination.homepageTest.user_click_leave_page()[0m
+  [36m* [0m[36muser click Pim page[0m                       [90m# Com.StepDefination.homepageTest.user_click_pim_page()[0m

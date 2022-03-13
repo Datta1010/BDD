@@ -1,0 +1,173 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 23407758000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "Com.StepDefination.loginpageTest.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10027993300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter valid username and password",
+            "match": {
+              "location": "Com.StepDefination.loginpageTest.user_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2998000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Com.StepDefination.loginpageTest.user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-07T06:46:47.562Z",
+        "line": 8,
+        "name": "Test login functionlity",
+        "description": "",
+        "id": "test-orange-hrm;test-login-functionlity",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1998400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Com.StepDefination.loginpageTest.user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d97.0.4692.99)\nBuild info: version: \u00274.1.1\u0027, revision: \u0027e8fcc2cecf\u0027\nSystem info: host: \u0027DESKTOP-CNN42RC\u0027, ip: \u0027192.168.127.120\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [bededa161a5f870a655b130add4f0805, get {url\u003dhttps://opensource-demo.orangehrmlive.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\Datta\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57448}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57448/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: bededa161a5f870a655b130add4f0805\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)\r\n\tat Com.BaseLayer.Baseclass11.inc(Baseclass11.java:23)\r\n\tat Com.StepDefination.loginpageTest.user_is_on_login_page(loginpageTest.java:22)\r\n\tat ✽.user is on login page(file:///C:/FrameWork/Cucumber/Com.AllFeatureFile/login.feature:4)\r\n",
+              "duration": 4047675100,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "Com.StepDefination.loginpageTest.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999300,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user enter valid username and password",
+            "match": {
+              "location": "Com.StepDefination.loginpageTest.user_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1998800,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Com.StepDefination.loginpageTest.user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-07T06:47:21.293Z",
+        "line": 12,
+        "name": "Test Home Page Fuctionlit",
+        "description": "",
+        "id": "test-orange-hrm;test-home-page-fuctionlit",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3998300,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user click on Admin page",
+            "match": {
+              "location": "Com.StepDefination.homepageTest.user_click_on_admin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999800,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user click leave page",
+            "match": {
+              "location": "Com.StepDefination.homepageTest.user_click_leave_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user click Pim page",
+            "match": {
+              "location": "Com.StepDefination.homepageTest.user_click_pim_page()"
+            },
+            "keyword": "* "
+          }
+        ]
+      }
+    ],
+    "name": "Test Orange HRM",
+    "description": "",
+    "id": "test-orange-hrm",
+    "keyword": "Feature",
+    "uri": "file:Com.AllFeatureFile/login.feature",
+    "tags": []
+  }
+]
