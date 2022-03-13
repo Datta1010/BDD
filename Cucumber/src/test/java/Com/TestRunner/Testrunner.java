@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features={"Com.AllFeatureFile/login.feature"},
 		glue = {"Com.StepDefination"},
-		dryRun = false,
+		dryRun = true,
 				plugin = {"html:Reports/orange.html",
 						"json:Reports/orange.json",
 						"junit:Reports/ornage.xml",
